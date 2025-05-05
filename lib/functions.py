@@ -8,25 +8,30 @@ greet_programmer()
 
 
 def greet(name):
-    print(f'Hello, {name}')
+    print(f'Hello, {name}!')
 
 
 greet('mati')
 
 
 def greet_with_default(name="programmer"):
-    print(f'Hello, {name}')
+    print(f'Hello, {name}!')
 
 
 greet_with_default()
 
 
 def add(num1, num2):
-    print(num1 + num2)
+    sum = num1 + num2
+    return sum
 
 
 add(2, 4)
 
 
 def halve(number):
-    pass
+    result = (number / 2)
+    return result
+
+
+halve(36)
