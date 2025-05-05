@@ -8,7 +8,10 @@ greet_programmer()
 
 
 def greet(name):
-    pass
+    print(f'Hello, {name}')
+
+
+greet('mati')
 
 
 def greet_with_default(name="programmer"):
