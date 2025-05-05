@@ -22,7 +22,10 @@ greet_with_default()
 
 
 def add(num1, num2):
-    pass
+    print(num1 + num2)
+
+
+add(2, 4)
 
 
 def halve(number):
